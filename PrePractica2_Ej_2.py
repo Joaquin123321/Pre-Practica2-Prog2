@@ -4,4 +4,21 @@
 
 #INICIO
 
+lista = []
+lista2 = []
+
+for x in range(3):
+    valor = int(input(f"Ingresar el valor del índice {x}: "))
+    lista.append(valor)
+
+    impar = valor % 2
+
+    if impar != 0:
+        lista2.append(valor)
+
+print(f"La lista de números originales es {lista}")
+print(f"La lista de números impares es {lista2}")
+        
+
+
 #FIN
